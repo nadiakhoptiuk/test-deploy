@@ -8,7 +8,6 @@ const nextConfig = {
         hostname: 'res.cloudinary.com',
       },
     ],
-    domains: ['res.cloudinary.com'],
   },
   webpack: config => {
     config.module.rules.push({

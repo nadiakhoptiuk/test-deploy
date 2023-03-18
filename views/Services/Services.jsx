@@ -9,6 +9,7 @@ const Services = ({ data }) => {
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <section id="services" className="mb-[80px] md:mb-[100px] xl:mb-[120px]">
       <Container>
@@ -29,7 +30,7 @@ const Services = ({ data }) => {
                 >
                   <Image
                     className="h-full w-full object-cover"
-                    src={el.image.url}
+                    src={el.image.secure_url}
                     alt={el.title}
                     width={el.image.width}
                     height={el.image.height}

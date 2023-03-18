@@ -8,7 +8,7 @@ const TeamMember = ({ person }) => {
     <>
       <Image
         loading="lazy"
-        src={person.photo.url}
+        src={person.photo.secure_url}
         alt={person.name}
         width={person.photo.width}
         height={person.photo.height}

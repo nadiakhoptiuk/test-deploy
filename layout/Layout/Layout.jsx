@@ -1,9 +1,8 @@
-import Footer from 'layout/Footer/Footer';
 import Header from 'layout/Header/Header';
 import dynamic from 'next/dynamic';
 
 const DynamicFooter = dynamic(() =>
-  import(/* webpackChunkName: "Career" */ '../Footer/Footer'),
+  import(/* webpackChunkName: "Footer" */ '../Footer/Footer'),
 );
 
 const Layout = ({ data, children }) => {

@@ -99,7 +99,7 @@ const WorkSlider = ({ data }) => {
                 loading="lazy"
                 className="min-h-[159px] object-cover md:h-[368px] xl:h-[540px] xl:w-[945px]"
                 alt={step.title}
-                src={step.image.url}
+                src={step.image.secure_url}
                 width={step.image.width}
                 height={step.image.height}
                 placeholder="blur"

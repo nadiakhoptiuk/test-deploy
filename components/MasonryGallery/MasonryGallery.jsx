@@ -4,6 +4,7 @@ import Masonry from '@mui/lab/Masonry';
 import { convertImage, toBase64 } from 'utils/blur';
 import * as basicLightbox from 'basiclightbox';
 import 'node_modules/basiclightbox/dist/basicLightbox.min.css';
+
 export const MasonryGallery = ({ itemData }) => {
   function onImageClick(src) {
     const instance = basicLightbox.create(`
@@ -11,6 +12,7 @@ export const MasonryGallery = ({ itemData }) => {
     `);
     instance.show();
   }
+
   return (
     <Masonry
       columns={2}
@@ -22,7 +24,6 @@ export const MasonryGallery = ({ itemData }) => {
         return (
           <li
             onClick={() => {
-              console.log(item.url);
               onImageClick(item.url);
             }}
             key={item.id}
