@@ -23,6 +23,12 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jr-project-lpqw.vercel.app/" />
         <meta property="og:site_name" content="Jazz Render" />
+
+        <meta property="og:image" content="/openGraph.png" />
+
+        <meta property="og:image:width" content="800" />
+
+        <meta property="og:image:height" content="600" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

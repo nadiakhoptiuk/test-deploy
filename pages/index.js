@@ -3,6 +3,14 @@ import { DataRequest } from 'utils/request';
 import dynamic from 'next/dynamic';
 import Hero from 'views/Hero/Hero';
 import Services from 'views/Services/Services';
+// import Advantages from 'views/Advantages/Advantages';
+// import HowWeWork from 'views/HowWeWork/HowWeWork';
+// import ContactUs from 'views/ContactUs/ContactUs';
+// import Clients from 'views/Clients/Clients';
+// import Team from 'views/Team/Team';
+// import Works from 'views/Works/Works';
+// import Contact from 'views/Contact/Contact';
+// import Career from 'views/Career/Career';
 
 const DynamicCareer = dynamic(() =>
   import(/* webpackChunkName: "Career" */ '../views/Career/Career'),

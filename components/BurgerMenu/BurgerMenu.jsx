@@ -3,7 +3,7 @@ import ModalBtn from 'components/ModalBtn/ModalBtn';
 import NavSections from 'components/NavSections/NavSections';
 import Image from 'next/image';
 
-export const BurgerMenu = ({ isNavOpen, setIsNavOpen }) => {
+const BurgerMenu = ({ isNavOpen, setIsNavOpen }) => {
   return (
     <div className="flex xl:hidden ">
       <button

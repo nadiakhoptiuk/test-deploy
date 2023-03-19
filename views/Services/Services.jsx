@@ -34,6 +34,7 @@ const Services = ({ data }) => {
                     alt={el.title}
                     width={el.image.width}
                     height={el.image.height}
+                    priority
                   />
                 </div>
                 <div

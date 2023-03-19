@@ -5,7 +5,7 @@ import { convertImage, toBase64 } from 'utils/blur';
 import * as basicLightbox from 'basiclightbox';
 import 'node_modules/basiclightbox/dist/basicLightbox.min.css';
 
-export const MasonryGallery = ({ itemData }) => {
+const MasonryGallery = ({ itemData }) => {
   function onImageClick(src) {
     const instance = basicLightbox.create(`
       <img src="${src}" width="800" height="600">
